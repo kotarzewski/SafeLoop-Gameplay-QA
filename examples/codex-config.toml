@@ -1,0 +1,4 @@
+[mcp_servers.safeloop_gameplay_qa]
+command = "C:\\Tools\\safeloop-gameplay-qa\\.venv\\Scripts\\python.exe"
+args = ["-m", "safeloop_gameplay_qa.server", "--workspace", "C:\\Projects\\MyGodotGame"]
+env = { SAFELOOP_QA_ALLOW_RUNTIME = "0", SAFELOOP_QA_ALLOW_DELETE = "0" }
